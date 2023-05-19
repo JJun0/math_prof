@@ -1,24 +1,21 @@
 import streamlit as st
 
-st.title('Math Proofs')
-st.markdown('Explore and learn mathematical proofs.')
+ st.title('Math Proof Webpage')
+    st.write('Welcome to the Math Proof Webpage! This page showcases mathematical proofs.')
 
-st.header('About Math Proofs')
-st.write('Math Proofs is a platform dedicated to showcasing and analyzing various mathematical proofs. Our goal is to provide a comprehensive resource for students, researchers, and enthusiasts.')
-st.write('With our user-friendly interface and extensive collection of proofs, you can deepen your understanding of mathematical concepts and enhance your problem-solving skills.')
+    st.header('Proof of Pythagoras Theorem')
+    st.write('The Pythagorean theorem states that in a right-angled triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides.')
 
-st.header('Key Features')
-st.markdown('- Access a wide range of mathematical proofs.')
-st.markdown('- Interactive step-by-step explanations.')
-st.markdown('- Search and filter proofs by topic or difficulty level.')
-st.markdown('- Bookmark and save your favorite proofs.')
+    st.subheader('Proof:')
+    st.markdown('''
+        We start with a right-angled triangle with sides of lengths a, b, and c (where c is the hypotenuse).
+        According to the Pythagorean theorem, we have:
 
-st.header('Sample Proof')
-# Add a well-formatted sample proof here using Streamlit components
+        $$a^2 + b^2 = c^2$$
 
-st.header('Get Started')
-st.write('Start exploring mathematical proofs now and expand your knowledge.')
-st.button('Get Started')
+        Now, let's prove this theorem using geometry:
 
-st.footer('Math Proofs | About Us | Contact | Privacy Policy | Terms of Service')
+        [Insert your proof steps here]
 
+        Thus, we have proved the Pythagorean theorem.
+    ''')

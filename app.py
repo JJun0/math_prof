@@ -1,6 +1,5 @@
 import streamlit as st
-st.title('Math Proof Webpage')
-st.write('Welcome to the Math Proof Webpage! This page showcases mathematical proofs.')
+st.title('Math Proof')
 
 st.header('Proof of Pythagoras Theorem')
 st.write('The Pythagorean theorem states that in a right-angled triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides.')
